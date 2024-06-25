@@ -13,7 +13,7 @@ ul {
     margin: 0;
 }
 
-body{
+body {
     background-color: #1E202B;
 }
 
@@ -22,19 +22,21 @@ body{
     background-color: #1E202B !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border:none;
+    border: none;
     box-shadow: none;
 }
-.navbar-toggler:hover{
+
+.navbar-toggler:hover {
     border: #009AD8 solid 3px;
     box-shadow: none;
 }
-.navbar-toggler:focus{
-    border:none;
+
+.navbar-toggler:focus {
+    border: none;
     box-shadow: none;
 }
 
@@ -43,7 +45,7 @@ body{
 }
 
 .nav-link.active {
-    color: rgb(0, 154, 216)  !important;
+    color: rgb(0, 154, 216) !important;
 }
 
 .nav-link:hover {
@@ -88,43 +90,47 @@ h1 {
     Color: rgb(255, 255, 255);
     font-size: 16px;
 }
-.nav-prag{
+
+.nav-prag {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     Color: rgb(191, 193, 200);
     font-size: 10px;
 }
-.nav-link{
+
+.nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
 
 /* header */
-.main-input  {
-    border:none;
+.main-input {
+    border: none;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     background-color: #262936;
 }
-.second-input  {
+
+.second-input {
     background-color: #1E202B;
-    border:none;
+    border: none;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
-.main-input:focus{
+
+.main-input:focus {
     background-color: transparent;
     border: none;
     box-shadow: none;
     color: #fff !important;
 }
 
-.second-input:focus{
+.second-input:focus {
     background-color: #1E202B;
     border: none;
     box-shadow: none;
@@ -148,13 +154,16 @@ h1 {
 ::placeholder {
     color: rgba(255, 255, 255, 0.5) !important;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.inner{
+
+.inner {
     background-color: #262936;
     height: 300px;
 }
+
 .subscrib {
     position: absolute;
     right: 2px;
@@ -167,9 +176,11 @@ a{
     border: solid #009AD8;
 
 }
-.the-footer{
-    background-color:rgb(38, 41, 54) !important;
+
+.the-footer {
+    background-color: rgb(38, 41, 54) !important;
 }
+
 .the-lower {
     position: relative !important;
     background-color: #1E202B !important;
@@ -200,42 +211,63 @@ a{
 
 .icons:hover {
     background-color: #009AD8;
-} 
-
-/* fonts */
-h2{
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        Color: rgb(255, 255, 255);
-        font-size: 36px;
 }
 
-p{
+/* section-1 fonts */
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    Color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     Color: rgb(191, 193, 200);
     font-size: 14px;
 }
-input , .button-fonts{
+
+input,
+.button-fonts {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     Color: rgb(255, 255, 255);
-    font-size: 14px; 
+    font-size: 14px;
 }
-.fonts{
+
+.fonts {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     Color: rgb(191, 193, 200);
-    font-size: 13px; 
+    font-size: 13px;
 }
-.fonts-white{
+
+.fonts-white {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     Color: rgb(255, 255, 255);
-    font-size: 13px; 
+    font-size: 13px;
 }
+
 .decor {
     background-color: #009AD8;
     border: solid #009AD8;
 }
 
+
+/* footer fonts */
+.footer-input,
+.footer-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.footer-prag {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: rgb(191, 193, 200);
+    font-size: 14px;
+}

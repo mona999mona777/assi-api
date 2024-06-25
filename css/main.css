@@ -105,14 +105,8 @@
  }
 
 
-
-
-
-
  /* section-1 header */
-
-
- body {
+.header , .data {
 
      background-color: #1E202B !important;
  }
@@ -270,13 +264,16 @@
  .degrees {
      position: absolute;
      top: 5px;
-     left:56%;
+     left: 56%;
  }
+
  .degro {
-    position: absolute;
-    top: 5px;
-   left:51%;
-}
+     position: absolute;
+     top: 5px;
+     left: 51%;
+ }
+
+ /* fonts of section-1 */
  h2 {
      font-family: "Roboto", sans-serif;
      font-weight: 700;
@@ -284,6 +281,65 @@
      font-size: 90px;
  }
 
+ .font-span-header {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     Color: rgb(191, 193, 200);
+     font-size: 14px;
+ }
+
+ .location {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     Color: rgb(191, 193, 200);
+     font-size: 18px;
+ }
+
+ .temp {
+     font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     Color: rgb(255, 255, 255);
+     font-size: 24px;
+ }
+
+ .span-temp {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     Color: rgb(191, 193, 200);
+     font-size: 16px;
+ }
+
+ .weather-info {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     color: rgb(191, 193, 200);
+     font-size: 14px;
+ }
+
+ .weather-word {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     color: rgb(0, 154, 216);
+     font-size: 14px;
+ }
+
+ /* footer fonts */
+ .footer-input,
+ .footer-button {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+ }
+
+ .footer-prag {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     color: rgb(191, 193, 200);
+     font-size: 14px;
+ }
+
+ /* media quary */
  /* input cont */
  @media (max-width:992px) {
      .inputWidth {
@@ -323,11 +379,11 @@
  }
 
  /* navbar */
-@media (min-width: 992px) {
-    .nav-container {
-        width: 992px;
-    }
-}
+ @media (min-width: 992px) {
+     .nav-container {
+         width: 992px;
+     }
+ }
 
  @media (max-width:992px) {
 
