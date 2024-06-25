@@ -110,9 +110,12 @@ function dispalyData() {
  dataEntryInput.addEventListener('keyup', function () {
     weatherData(dataEntryInput.value);
 }) 
+// search with button also
 btnData.addEventListener('click', function () {
     weatherData(dataEntryInput.value);
 })
+
+// static intialWeatherData with first function  weatherData
 // weatherData("cairo");
 
 
